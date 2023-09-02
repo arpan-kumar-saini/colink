@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="material/Logo3.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--this is for text shadow-->
+    <style>
+        .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.10);
+  }
+
+  .text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08);
+  }
+
+  .text-shadow-none {
+    text-shadow: none;
+  }
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="  flex fixed top-0 left-0 bg-white w-full shadow ">
+        <div class=" container m-auto flex justify-between items-center">
+            <div class="justify-start pl-4"><!--this is for both screen-->
+                <a href="Homepage.html"  class="cuser-pointer  flex ">
+                    <img src="material/Logo3.png" class="h-28 w-auto" alt=" Colink Logo">
+                    <span class="text-[#008AFC] font-bold text-3xl py-9">CO</span>
+                    <span class="text-[#1C4483] font-bold text-3xl py-9">Link</span>
+                </a>
+            </div>
+            <div><!--this is for full screen-->
+                <ul class=" hidden md:flex items-center pr-10 text-base font-semibold cuser-pointer text-[#1C4483]">
+                    <li class="hover:bg-gray-200 py-4 px-6">Home</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Features</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Blogs</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Review</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Our Team</li>
+                    <a href="Faq.html"><li class="hover:bg-gray-200 py-4 px-6">FaQ's</li></a>
+                    <li class="hover:bg-gray-200 py-4 px-6">contact Us</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Admin</li>
+                </ul>
+            </div>
+                <div class="">
+                    <button class=" block flex justify-end space-y-4 py-3 px-28  ">
+                        <img  src="material/mam 2 png.jpg" alt="Sing in logo" class="rounded-full h-20 w-24 ">
+                    </button>
+                    <div class=" block md:hidden py-9 px-4 mx-2 rounded focus:outline-none hover:bg-gray-200 "> <!--this is hamburger-->
+                        <div class="w-5 h-1 bg-gray-600 mb-1" ></div>
+                        <div class="w-5 h-1 bg-gray-600 mb-1"></div>
+                        <div class="w-5 h-1 bg-gray-600"></div>
+                        <div class="absoulte top-0 -right-ful opacity-0 h-screen w-8/12 bg-white border transform 
+                                    transition-all duration-300">
+                            <ul class=" flex flex-col item-center w-full text-base cursor-pointer pt-10">
+                                <li class="hover:bg-gray-200 py-4 px-6 w-full ">Home</li>
+                                <li class="hover:bg-gray-200 py-4 px-6 w-full ">Features</li>
+                                <li class="hover:bg-gray-200 py-4 px-6 w-full ">Blogs</li>
+                                <li class="hover:bg-gray-200 py-4 px-6 w-full ">Review</li>
+                                <li class="hover:bg-gray-200 py-4 px-6 w-full ">Our Team</li>
+                                <li class="hover:bg-gray-200 py-4 px-6 w-full ">FaQ's</li>
+                                <li class="hover:bg-gray-200 py-4 px-6 w-full ">contact Us</li>
+                                <li class="hover:bg-gray-200 py-4 px-6 w-full ">Admin</li>
+                            </ul>        
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </nav>
+</header>
+<section class="mt-[150px]  ">
+    <div>
+    <a class="text-[#324158] text-5xl ml-[600px] font-bold justify-between  ">Alumini</a>
+    </div>
+    <div class="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4    mt-10 grid-flow-row">
+        <a href="alumini_profile_page.html">
+            <div class=" grid grid-rows-2 mx-10 my-10 h-[430px] w-[250px] shadow-2xl  hover:shadow-[#185282] rounded-[20px] ">
+                <div class="px-4">
+                    <img src="material/Arpan2.jpg" class=" rounded-full shadow-2xl  hover:shadow-[#185282] ">
+                </div>
+                <div class="px-4">
+                    <span class="font-bold ml-16 text-3xl ">Arpan</span>
+                    <P>
+                        Year :- 2014
+                        <br>
+                        Branch:- IT
+                        <br>
+                        Current Skills:- Designer
+                        <br>
+                        Current Job:- Kuch nhi
+                        <br>
+                        Current Company:- 😁
+                    </P>
+                </div>
+            </div>
+        </a>
+        <a href="alumini_profile_page.html">
+            <div class=" grid grid-rows-2 mx-10 my-10 h-[430px] w-[250px] shadow-2xl  hover:shadow-[#185282] rounded-[20px] ">
+                <div class="px-4">
+                    <img src="material/vicky.jpeg" class=" rounded-full shadow-2xl  hover:shadow-[#185282] ">
+                </div>
+                <div class="px-4">
+                    <span class="font-bold ml-16 text-3xl ">Vicky</span>
+                    <P>
+                        Year :- 2014
+                        <br>
+                        Branch:- IT
+                        <br>
+                        Current Skills:- Designer
+                        <br>
+                        Current Job:- Kuch nhi
+                        <br>
+                        Current Company:- 😁
+                    </P>
+                </div>
+            </div>
+        </a>
+        <a href="alumini_profile_page.html">
+            <div class=" grid grid-rows-2 mx-10 my-10 h-[430px] w-[250px] shadow-2xl  hover:shadow-[#185282] rounded-[20px] ">
+                <div class="px-4">
+                    <img src="material/Akhilesh.jpeg" class=" rounded-full shadow-2xl  hover:shadow-[#185282] ">
+                </div>
+                <div class="px-4">
+                    <span class="font-bold ml-16 text-3xl ">Akhilesh</span>
+                    <P>
+                        Year :- 2014
+                        <br>
+                        Branch:- IT
+                        <br>
+                        Current Skills:- Designer
+                        <br>
+                        Current Job:- Kuch nhi
+                        <br>
+                        Current Company:- 😁
+                    </P>
+                </div>
+            </div>
+        </a>
+        <a href="alumini_profile_page.html">
+            <div class=" grid grid-rows-2 mx-10 my-10 h-[430px] w-[250px] shadow-2xl  hover:shadow-[#185282] rounded-[20px] ">
+                <div class="px-4">
+                    <img src="material/Arpan3.jpg" class=" rounded-full shadow-2xl  hover:shadow-[#185282] ">
+                </div>
+                <div class="px-4">
+                    <span class="font-bold ml-16 text-3xl ">Raju</span>
+                    <P>
+                        Year :- 2014
+                        <br>
+                        Branch:- IT
+                        <br>
+                        Current Skills:- Designer
+                        <br>
+                        Current Job:- Kuch nhi
+                        <br>
+                        Current Company:- 😁
+                    </P>
+                </div>
+            </div>
+        </a>
+        <a href="alumini_profile_page.html">
+            <div class=" grid grid-rows-2 mx-10 my-10 h-[430px] w-[250px] shadow-2xl  hover:shadow-[#185282] rounded-[20px] ">
+                <div class="px-4">
+                    <img src="material/Arpan4.jpg" class=" rounded-full shadow-2xl  hover:shadow-[#185282] ">
+                </div>
+                <div class="px-4">
+                    <span class="font-bold ml-16 text-3xl ">Sumit</span>
+                    <P>
+                        Year :- 2014
+                        <br>
+                        Branch:- IT
+                        <br>
+                        Current Skills:- Designer
+                        <br>
+                        Current Job:- Kuch nhi
+                        <br>
+                        Current Company:- 😁
+                    </P>
+                </div>
+            </div>
+        </a>
+        <a href="alumini_profile_page.html">
+            <div class=" grid grid-rows-2 mx-10 my-10 h-[430px] w-[250px] shadow-2xl  hover:shadow-[#185282] rounded-[20px] ">
+                <div class="px-4">
+                    <img src="material/Arpan5.jpg" class=" rounded-full shadow-2xl  hover:shadow-[#185282] ">
+                </div>
+                <div class="px-4">
+                    <span class="font-bold ml-16 text-3xl ">Sona</span>
+                    <P>
+                        Year :- 2014
+                        <br>
+                        Branch:- IT
+                        <br>
+                        Current Skills:- Designer
+                        <br>
+                        Current Job:- Kuch nhi
+                        <br>
+                        Current Company:- 😁
+                    </P>
+                </div>
+            </div>
+        </a>
+        <a href="alumini_profile_page.html">
+            <div class=" grid grid-rows-2 mx-10 my-10 h-[430px] w-[250px] shadow-2xl  hover:shadow-[#185282] rounded-[20px] ">
+                <div class="px-4">
+                    <img src="material/Akhilesh.jpeg" class=" rounded-full shadow-2xl  hover:shadow-[#185282] ">
+                </div>
+                <div class="px-4">
+                    <span class="font-bold ml-16 text-3xl ">Akhilesh</span>
+                    <P>
+                        Year :- 2014
+                        <br>
+                        Branch:- IT
+                        <br>
+                        Current Skills:- Designer
+                        <br>
+                        Current Job:- Kuch nhi
+                        <br>
+                        Current Company:- 😁
+                    </P>
+                </div>
+            </div>
+        </a>
+        <a href="alumini_profile_page.html">
+            <div class=" grid grid-rows-2 mx-10 my-10 h-[430px] w-[250px] shadow-2xl  hover:shadow-[#185282] rounded-[20px] ">
+                <div class="px-4">
+                    <img src="material/vicky.jpeg" class=" rounded-full shadow-2xl  hover:shadow-[#185282] ">
+                </div>
+                <div class="px-4">
+                    <span class="font-bold ml-16 text-3xl ">Vicky</span>
+                    <P>
+                        Year :- 2014
+                        <br>
+                        Branch:- IT
+                        <br>
+                        Current Skills:- Designer
+                        <br>
+                        Current Job:- Kuch nhi
+                        <br>
+                        Current Company:- 😁
+                    </P>
+                </div>
+            </div>
+        </a>
+        <a href="alumini_profile_page.html">
+            <div class=" grid grid-rows-2 mx-10 my-10 h-[430px] w-[250px] shadow-2xl  hover:shadow-[#185282] rounded-[20px] ">
+                <div class="px-4">
+                    <img src="material/Arpan5.jpg" class=" rounded-full shadow-2xl  hover:shadow-[#185282] ">
+                </div>
+                <div class="px-4">
+                    <span class="font-bold ml-16 text-3xl ">Sona</span>
+                    <P>
+                        Year :- 2014
+                        <br>
+                        Branch:- IT
+                        <br>
+                        Current Skills:- Designer
+                        <br>
+                        Current Job:- Kuch nhi
+                        <br>
+                        Current Company:- 😁
+                    </P>
+                </div>
+            </div>
+        </a>
+        <a href="alumini_profile_page.html">
+            <div class=" grid grid-rows-2 mx-10 my-10 h-[430px] w-[250px] shadow-2xl  hover:shadow-[#185282] rounded-[20px] ">
+                <div class="px-4">
+                    <img src="material/Akhilesh.jpeg" class=" rounded-full shadow-2xl  hover:shadow-[#185282] ">
+                </div>
+                <div class="px-4">
+                    <span class="font-bold ml-16 text-3xl ">Akhilesh</span>
+                    <P>
+                        Year :- 2014
+                        <br>
+                        Branch:- IT
+                        <br>
+                        Current Skills:- Designer
+                        <br>
+                        Current Job:- Kuch nhi
+                        <br>
+                        Current Company:- 😁
+                    </P>
+                </div>
+            </div>
+        </a>
+        <a href="alumini_profile_page.html">
+            <div class=" grid grid-rows-2 mx-10 my-10 h-[430px] w-[250px] shadow-2xl  hover:shadow-[#185282] rounded-[20px] ">
+                <div class="px-4">
+                    <img src="material/Arpan2.jpg" class=" rounded-full shadow-2xl  hover:shadow-[#185282] ">
+                </div>
+                <div class="px-4">
+                    <span class="font-bold ml-16 text-3xl ">Arpan</span>
+                    <P>
+                        Year :- 2014
+                        <br>
+                        Branch:- IT
+                        <br>
+                        Current Skills:- Designer
+                        <br>
+                        Current Job:- Kuch nhi
+                        <br>
+                        Current Company:- 😁
+                    </P>
+                </div>
+            </div>
+        </a>
+        <a href="alumini_profile_page.html">
+            <div class=" grid grid-rows-2 mx-10 my-10 h-[430px] w-[250px] shadow-2xl  hover:shadow-[#185282] rounded-[20px] ">
+                <div class="px-4">
+                    <img src="material/Arpan3.jpg" class=" rounded-full shadow-2xl  hover:shadow-[#185282] ">
+                </div>
+                <div class="px-4">
+                    <span class="font-bold ml-16 text-3xl ">Arpan</span>
+                    <P>
+                        Year :- 2014
+                        <br>
+                        Branch:- IT
+                        <br>
+                        Current Skills:- Designer
+                        <br>
+                        Current Job:- Kuch nhi
+                        <br>
+                        Current Company:- 😁
+                    </P>
+                </div>
+            </div>
+        </a>
+
+        
+    </div>
+</section>
+</body>
+</html>

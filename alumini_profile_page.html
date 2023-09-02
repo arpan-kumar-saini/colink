@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="material/Logo3.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link src="nav.js" >
+   
+</head>
+<body>
+     <nav class="shadow bg-white fixed top-0 left-0 flex h-[50px] w-full " >
+        <div class=" container mt-6    flex justify-between items-center" >
+            <div class="justify-start pl-4  w-auto  mb-6"><!--this is for both screen-->
+                <a href="Homepage.html"  class="cuser-pointer  flex ">
+                    <img src="material/Logo3.png" class="h-[70px] w-auto mt-[2px]  mb-[6px]  py-2  " alt=" Colink Logo">
+                    <span class="text-[#008AFC] font-bold text-3xl pb-2 pt-6  ">CO</span>
+                    <span class="text-[#1C4483] font-bold text-3xl pb-2 pt-6  ">Link</span>
+                </a>
+            </div>
+            <div>
+                <ul class=" hidden md:flex items-center pr-10 text-base font-semibold cuser-pointer text-[#1C4483]">
+                    <li class="hover:bg-gray-200 py-4 px-6">Home</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Features</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Blogs</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Review</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Our Team</li>
+                    <a href="Faq.html"><li class="hover:bg-gray-200 py-4 px-6">FaQ's</li></a>
+                    <li class="hover:bg-gray-200 py-4 px-6">contact Us</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Admin</li>
+                </ul>
+            </div>           
+            <div class="">
+                <img src="material/moon.png"  class="h-[40px] mb-[20px] mr-[10px]">
+            </div>
+            <div>
+                <button class=" hidden md:flex justify-end space-y-4    ">
+                    <img  src="material/mam 2 png.jpg" alt="Sing in logo" class="rounded-full   h-[50px] w-auto mb-6 mr-16  ">
+                </button>
+            </div>
+            <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20 justify-end mb-2 mr-5">
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+            </div>
+        </div>
+        <div>
+            <ul id="menu" class="hidden bg-gradient-to-r from-[#008AFC] to-[#1C4483] absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-black text-center">
+                <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">Home</li></a>
+                <a id="hLink"> <li class="hover:bg-gray-200 py-4 px-6">Features</li></a>
+                <a id="hLink"> <li class="hover:bg-gray-200 py-4 px-6">Blogs</li></a>
+                <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">Review</li></a>
+                <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">Our Team</li></a>
+                <a id="hLink" href="Faq.html"><li class="hover:bg-gray-200 py-4 px-6">FaQ's</li></a>
+                <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">contact Us</li></a>
+                <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">Admin</li></a>      
+            </ul>            
+        </div>        
+     </nav> 
+     <script src="./app.js"></script>
+     <script src="./autotyping.js"></script>       
+     
+     <div class="shadow-2xl mx-[70px] w-[1400px] rounded-[40px] hover:shadow-[#185282] mt-20">
+        <div id="mainHeading" class="flex justify-between items-center  ">
+            <div class="">
+                <div class="grid grid-cols-2 ">
+                    <div>
+                        <img src="material/Arpan2.jpg" class="rounded-full h-[200px] mt-6 mb-10 mx-6 ml-[100PX]
+                        ring-2 ring-[#008AFC] shadow-2xl  transition hover:-translate-y-1 hover:scale-100 
+                        hover:ring  hover:ring-[6px] hover:ring-[#4466cc]  hover:shadow-[#4466cc] ">
+                    </div>
+                    <div>
+                        <h1 class="mb-4 text-3xl mt-10 font-extrabold  md:text-5xl lg:text-6xl">
+                            <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r  from-[#008AFC] to-[#185282] ml-[80px] ">Arpan Saini</span>
+                        </h1>
+                        <a class="mb-4 ml-[80px] mt-10 font-bold text-[#185282] ">WEB DESIGNER AND DEVELOPER
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="interact.html">
+                <button 
+                class="text-white bg-gradient-to-r from-[#008AFC] via-blue-500 to-[#1C4483]  mr-20 hover:bg-gradient-to-br   shadow-lg hover:shadow-[#008AFC]  font-medium rounded-lg text-sm px-4 py-4 text-center mr-6 mb-[-150px]"
+                > Massege
+            </button>
+            </a>
+            
+        </div>
+        <div class="flex  -mt-16 ml-[480px] pb-4 gap-8">
+            <div
+                class="rounded-[25px]  transition hover:-translate-y-1 cursor-pointer  shadow-lg shadow-blue-700  hover:shadow-lg hover:shadow-[#008AFC]  ">
+                <a href="https://www.linkedin.com/in/arpansaini/"><img src="material/linkdin.jpg"
+                        class="rounded-[25px] h-[40px] w-[40px]  " alt=""></a>
+            </div>
+            <div
+                class="rounded-[25px]  transition hover:-translate-y-1 cursor-pointer  shadow-lg shadow-red-700  hover:shadow-lg hover:shadow-[#008AFC]  ">
+                <a href="https://www.instagram.com/arpan_kumar_saini/"><img src="material/instagram.jpg"
+                        class="rounded-[25px] h-[40px] w-[40px]  " alt=""></a>
+            </div>
+            <div
+                class="rounded-[25px]  transition hover:-translate-y-1 cursor-pointer  shadow-lg shadow-blue-400   hover:shadow-lg hover:shadow-[#008AFC]  ">
+                <img src="material/twitter.jpg" class="rounded-[25px] h-[40px] w-[40px]  " alt="">
+            </div>
+            <div
+                class="rounded-[25px]  transition hover:-translate-y-1 cursor-pointer  shadow-lg shadow-blue-700  hover:shadow-lg hover:shadow-[#008AFC]  ">
+                <a href="https://www.facebook.com/arpan.saini.547"><img src="material/facebook.jpg"
+                        class="rounded-[25px] h-[40px] w-[40px]  " alt=""></a>
+            </div>
+            <div
+                class="rounded-[25px]  transition hover:-translate-y-1 cursor-pointer shadow-lg shadow-red-700  hover:shadow-lg hover:shadow-[#008AFC]  ">
+                <img src="material/youtube.jpg" class="rounded-[25px] h-[40px] w-[40px]  " alt="">
+            </div>
+
+
+        </div>
+        <div class=" mt-2 ">
+            <div>
+                <div class="bg-white  px-3 lg:px-6  rounded-bl-3xl rounded-br-3xl py-6 ">
+                    <div
+                        class="grid grid-cols-2 hover:shadow-2xl hover:shadow-[#008AFC] rounded-[25px] py-4">
+                        <div class=" rounded-[25px] mx-4 ">
+                            <h1 class=" text-2xl text-gray-900 ml-10 font-bold tracking-wider mr-4">
+                                Highlights</h1>
+                            <div class="ml-2">
+                                <p
+                                    class=" text-gray-700  text-md lg:text-base lg:leading-8 pr-4 tracking-wide  mt-2">
+                                    <h1 class="font-semibold">Year :- </h1>2022
+                                    <h1 class="font-semibold">Branch :- </h1> Information Technology
+                                <h1 class="font-semibold"> Current Company :- </h1> CoLink
+                                <h1 class="font-semibold">Experience :- </h1> 2 months
+                               
+                                </p>
+                                <h1 class=" text-2xl text-gray-900 ml-10 font-bold tracking-wider mr-4">
+                                    Education</h1>
+                                    <p
+                                    class=" text-gray-700  text-md lg:text-base lg:leading-8 pr-4 tracking-wide  mt-2">
+                                <h1 class="font-semibold">HIGH SCHOOL :- </h1> SIKHSHA BHARTI INTER COLLEGE
+                                <h1 class="font-semibold">INTERMEDIATE :- </h1>SIKHSHA BHARTI INTER COLLEGE
+                                <h1 class="font-semibold">GRADUTION :- </h1>REC BIJNOR
+                                <h1 class="font-semibold">POST GRADUTION :- </h1>ALPHA HHK
+                                </p>
+                                <h1 class=" text-2xl text-gray-900 ml-10 font-bold tracking-wider mr-4">
+                                    INTEREST</h1>
+                                    <p
+                                    class=" text-gray-700  text-md lg:text-base lg:leading-8 pr-4 tracking-wide  mt-2">
+                                <h1 class="font-semibold">GOOGLE</h1>
+                                <h1 class="font-semibold">AMAZON </h1>
+                                <h1 class="font-semibold">SPACE X</h1>
+                                <h1 class="font-semibold">APPLE </h1>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div>
+                            <div class=" rounded-[25px] mx-4  ">
+                                <h1 class=" text-2xl text-gray-900 ml-10 font-bold tracking-wider">ABOUT
+                                </h1>
+                                <div class="ml-2">
+                                    <p
+                                        class=" text-gray-700  text-md lg:text-base lg:leading-8 pr-4 tracking-wide mt-2 pb-10">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Perferendis, laudantium ea placeat sapiente maxime,
+                                        voluptatem maiores nisi ipsa libero totam nostrum ut natus quibusdam
+                                        odio reiciendis possimus,
+                                        repellat atque perspiciatis.
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
+                                        accusamus vitae ipsam esse
+                                        debitis? Rerum quae et obcaecati laborum pariatur molestiae
+                                        eius illo dicta aspernatur aperiam, recusandae esse est ea.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi expedita accusamus ut vitae 
+                                        maiores animi id voluptatem. Similique blanditiis, temporibus delectus illo, saepe pariatur,
+                                         nostrum perspiciatis atque quidem voluptatibus 
+                                        quae?
+
+                                    </p>
+                                    <h1 class=" text-2xl text-gray-900 ml-10 font-bold tracking-wider mr-4">
+                                        SKILLS</h1>
+                                        <p
+                                        class=" text-gray-700  text-md lg:text-base lg:leading-8 pr-4 tracking-wide  mt-2">
+                                    <h1 class="font-semibold">C LANGUAGE</h1> 
+                                    <h1 class="font-semibold">PYTHON</h1> 
+                                    <h1 class="font-semibold">HTML</h1> 
+                                    <h1 class="font-semibold">CSS </h1>
+                                    <h1 class="font-semibold">TAILWIND CSS </h1>
+                                    <h1 class="font-semibold">JAVASCRIPT </h1>
+                                  
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

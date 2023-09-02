@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="material/Logo3.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+    <link src="nav.js" >
+   
+</head>
+<body>
+     <nav class="shadow bg-white fixed top-0 left-0 flex h-[70px] w-full " >
+        <div class=" container mt-6    flex justify-between items-center" >
+            <div class="justify-start pl-4  w-auto  mb-6"><!--this is for both screen-->
+                <a href="Homepage.html"  class="cuser-pointer  flex ">
+                    <img src="material/Logo3.png" class="h-[70px] w-auto mt-[2px]  mb-[6px]  py-2  " alt=" Colink Logo">
+                    <span class="text-[#008AFC] font-bold text-3xl pb-2 pt-6  ">CO</span>
+                    <span class="text-[#1C4483] font-bold text-3xl pb-2 pt-6  ">Link</span>
+                </a>
+            </div>
+            <div>
+                <ul class=" hidden md:flex items-center pr-10 text-base font-semibold cuser-pointer text-[#1C4483]">
+                    <li class="hover:bg-gray-200 py-4 px-6">Home</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Features</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Blogs</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Review</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Our Team</li>
+                    <a href="Faq.html"><li class="hover:bg-gray-200 py-4 px-6">FaQ's</li></a>
+                    <li class="hover:bg-gray-200 py-4 px-6">contact Us</li>
+                    <li class="hover:bg-gray-200 py-4 px-6">Admin</li>
+                </ul>
+            </div>           
+            <div class="">
+                <img src="material/moon.png"  class="h-[40px] mb-[20px] mr-[10px]">
+            </div>
+            <div>
+                <button class=" hidden md:flex justify-end space-y-4    ">
+                    <img  src="material/mam 2 png.jpg" alt="Sing in logo" class="rounded-full   h-[50px] w-auto mb-6 mr-16  ">
+                </button>
+            </div>
+            <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20 justify-end mb-2 mr-5">
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+            </div>
+        </div>
+        <div>
+            <ul id="menu" class="hidden bg-gradient-to-r from-[#008AFC] to-[#1C4483] absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-black text-center">
+                <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">Home</li></a>
+                <a id="hLink"> <li class="hover:bg-gray-200 py-4 px-6">Features</li></a>
+                <a id="hLink"> <li class="hover:bg-gray-200 py-4 px-6">Blogs</li></a>
+                <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">Review</li></a>
+                <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">Our Team</li></a>
+                <a id="hLink" href="Faq.html"><li class="hover:bg-gray-200 py-4 px-6">FaQ's</li></a>
+                <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">contact Us</li></a>
+                <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">Admin</li></a>      
+            </ul>            
+        </div>        
+     </nav> 
+     <section >
+        <div class="grid grid-cols-2">
+            <div class="mt-[85px] mr-[300px] ml-[40px]   h-[620px] shadow-2xl hover:shadow-[#008AFC] mb-4  rounded-[25px]">
+            <div class="grid grid-rows-3">
+            <div>
+                <div class="flex md:justify-center justify-between items-center  py-3 w-full">
+                    <input class="w-[360px] h-[40px] rounded-[25px]  border px-6 bg-indigo-50 " type="text" placeholder="   Search" />
+                    <lord-icon   src="https://cdn.lordicon.com/xfftupfv.json"  trigger="hover"  colors="primary:#1C4483" style="width:50px;height:50px"></lord-icon>
+                </div>
+            </div>
+            
+            <div>
+                <div class=" mt-[-25px] flex items-center  border-gray-200 dark:border-gray-700  justify-between px-6 py-3">
+                    <p tabindex="0" class=" text-sm  font-semibold leading-tight text-[#1C4483] ">Recent Chats</p>
+                    <button class=" focus:ring-2 focus:ring-indigo-700 focus:bg-indigo-50  flex cursor-pointer items-center justify-center px-3 py-2.5 border rounded border-gray-100  ">
+                        <p  class=" text-xs   text-[#1C4483] ">Filter by: Latest</p>
+                    </button>
+                </div>
+            </div>
+            <hr class="mt-[-43px]">
+            <div class=" overflow-y-scroll pr-4 overflow-hidden space-y-2 mt-[-110px] h-[500px]">
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/Arpan2.jpg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Arpan Saini</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/Akhilesh.jpeg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Akhilesh Kumar</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/vicky.jpeg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Vicky </a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/harry.jpeg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Anurag Singh</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/tushar.jpg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Tushar Bharti</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/Arpan4.jpg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Appu</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/suraj.jpg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Suraj Pandey</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/samad.jpg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Samad</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/ayush.jpeg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Ayush Verma</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/pushpa.jpg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Pushpa</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/monty.jpg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Monty</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/nishant.jpeg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Nishant Sonkar</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/lakshit.jpg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Lakshit</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/arpan7.jpg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Arpan Saini</a>
+                </div>
+                <div class="sm:mb-0 mb-4 flex items-center">
+                    <img  src="material/Arpan.jpeg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                    <a  class=" cursor-pointer  text-3xl  font-semibold leading-5 text-gray-800 dark:text-gray-100">Appu</a>
+                </div>
+               
+                
+            </div>
+
+            </div>
+            </div>
+            <div class="mt-[85px] ml-[-240px] mr-[40px]  h-[620px] shadow-2xl hover:shadow-[#008AFC] mb-4  rounded-[25px]">
+                <div class="grid grid-rows-3">
+                    <div class="flex">
+                        <a href="alumini_profile_page.html">
+                            <div class="sm:mb-0 -mt-16 flex items-center">
+                                <img  src="material/arpan7.jpg" class="w-16 h-16 rounded-full mx-6 object-center" />
+                                <a  href="alumini_profile_page.html" class=" cursor-pointer  text-3xl  font-semibold leading-5 text-[#1c4483]">Arpan Saini</a>
+                            </div>
+                        </a>                        
+                        <lord-icon src="https://cdn.lordicon.com/ssvybplt.json" trigger="hover" class="mt-4 ml-[450px] cursor-pointer" colors="primary:#1c4483" style="width:50px;height:50px"></lord-icon>
+                        <lord-icon src="https://cdn.lordicon.com/ycwlopoz.json" trigger="hover" class="mt-4 ml-[30px] cursor-pointer" colors="primary:#1c4483"  style="width:50px;height:50px"></lord-icon>
+                        <lord-icon  src="https://cdn.lordicon.com/dnmvmpfk.json" trigger="hover" class="mt-4 ml-[30px] cursor-pointer" colors="primary:#1c4483"  style="width:50px;height:50px"></lord-icon>
+                    </div>
+                    <hr class="-mt-[60px]">
+                    <div>
+                        <div class="space-y-6 mt-[-130px] ">
+                            <p  class="h-10 px-6 w-[200px] -mt-[px] mx-6 rounded-[25px] pt-2  ml-[720px] shadow-2xl hover:shadow-[#1c4483] cursor-pointer text-white font-semibold leading-5 bg-[#008AFC]"> Hi,Good evening sir</p>
+                            <p  class="h-10 px-6 w-[160px]  mx-6 rounded-[25px] pt-2 cursor-pointer shadow-2xl hover:shadow-[#008AFC] text-white font-semibold leading-5 bg-[#1c4483]"> Good evening </p>
+                            <p  class="h-16 px-6 w-[300px]  mx-6 rounded-[25px] pt-2  ml-[650px] cursor-pointer shadow-2xl hover:shadow-[#1c4483] text-white font-semibold leading-5 bg-[#008AFC]">Sir, Is DSA important  for placement </p>
+                            <p  class="h-16 px-6 w-[300px]  mx-6 rounded-[25px] pt-2 cursor-pointer shadow-2xl hover:shadow-[#008AFC] text-white font-semibold leading-5 bg-[#1c4483]">Yes, of-course it is very important </p>
+                        </div>
+                    </div>                    
+                    <div class="h-[80px] mt-[80px] mx-4 rounded-[15px] border">
+                        <div class="flex md:justify-center justify-between items-center   w-full">
+                            <lord-icon     src="https://cdn.lordicon.com/bhfjfgqz.json"  trigger="hover" class=" mr-[30px] cursor-pointer" colors="primary:#1C4483" style="width:50px;height:50px"></lord-icon>
+                            <input class="w-[700px] h-[60px] rounded-[25px] border px-6 mt-2 bg-indigo-50 " type="text" placeholder="   Type your massage....." />
+                            <lord-icon    src="https://cdn.lordicon.com/iiixgoqp.json"  trigger="hover" class=" ml-[30px] cursor-pointer" colors="primary:#1C4483" style="width:50px;height:50px"></lord-icon>
+                            <lord-icon   src="https://cdn.lordicon.com/pnhskdva.json"  trigger="hover" class="ml-[30px] cursor-pointer" colors="primary:#1C4483" style="width:50px;height:50px"></lord-icon>
+                        </div>
+                    </div>
+                </div>
+         
+            </div>
+        </div>
+        
+
+     </section>
+     <script src="./app.js"></script>
+     <script src="./autotyping.js"></script>
+     
+     
+</body>
+</html>
