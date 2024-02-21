@@ -13,7 +13,7 @@
     This project is an Alumini Website of College.
     <br />   
     <br />
-    <a href="https://arpan-colink.netlify.app/">View Demo</a>
+    <a href="https://arpan-colink.netlify.app/" target='_blank'>View Demo</a>
     ·
     <a href="">Report Bug</a>
     ·
